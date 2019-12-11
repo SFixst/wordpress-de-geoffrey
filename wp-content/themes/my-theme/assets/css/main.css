@@ -1,0 +1,183 @@
+html {
+    font-size: 62.5%;
+    font-family: "Dosis";
+}
+
+body {
+    color: #333;  
+    margin: 0;
+}
+
+header{
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-right: 5rem;
+    font-weight: bold;
+    
+}
+
+nav ul li{
+    margin-right: 1rem;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    
+}
+
+footer{
+    background-color: dimgrey;
+}
+
+footer p{
+    font-size: 2rem;
+    padding: 3rem;
+    color: white;
+}
+
+#img1{
+    text-align: center;
+    padding: 15rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-transform : uppercase;
+}
+
+#txt11{
+    font-size: 1.8rem;
+    color: grey;
+    font-weight: lighter;
+    margin: .5rem 0; 
+}
+
+#txt12{
+    font-size: 4rem;
+    font-weight: lighter;
+    margin: .5rem 0;
+}
+
+#txt13{
+    font-size: 4rem;
+    font-weight: lighter;
+    color: greenyellow;
+    margin: .5rem 0;
+}
+
+#bouton1{
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 0.8rem;
+    margin: .5rem 0;
+}
+
+
+
+#img2{
+    text-align: center;
+    padding: 15rem;
+}
+
+#txt21{
+    text-transform : uppercase;
+    font-size: 5rem;
+    color: black;
+    font-weight: lighter;
+    margin: .5rem 0; 
+}
+
+#trait{
+    font-size: 2rem;
+    letter-spacing: 0;
+    user-select: none;
+    -moz-user-select: none;
+    margin: 1% 0 2% 0;
+    opacity: 0.5;
+}
+
+#txt22{
+    font-size: 2rem;
+    font-weight: lighter;
+    color: grey;
+}
+
+#img3{
+    text-align: center;
+    padding: 15rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-transform : uppercase;
+    margin-top: 5rem;
+}
+
+#img4{
+    text-align: center;
+    padding: 5rem;
+    background-size: cover;
+    text-transform : uppercase;
+    background-color: beige;
+    margin-top: 10rem;
+}
+
+#pg{
+    display: flex;
+    justify-content: space-around;
+}
+
+#txt31{
+    text-transform : uppercase;
+    font-size: 2rem;
+    color: darkgreen;
+}
+
+#txt32{
+    text-transform: none;
+    font-size: 1.25rem;
+    text-align: left;
+    font-weight: lighter;
+    list-style: none;
+}
+
+#nanoimg{
+    padding: 10rem;
+    margin-left: 150rem;
+    background-repeat: no-repeat;
+}
+
+#img5{
+    text-align: center;
+    padding: 5rem;
+    background-size: cover;
+    text-transform : uppercase;
+}
+
+#profil1{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2vh;
+}
+
+#profil2{
+    display: flex;
+    justify-content: space-around;
+}
+
+#bouton2{
+    background-color: limegreen;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 0.8rem;
+    margin: .5rem 0;
+}
